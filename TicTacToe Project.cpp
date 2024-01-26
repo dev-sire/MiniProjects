@@ -7,15 +7,15 @@ void drawboard(){
 	system("cls");
 	cout<<"\n******************* TIC TAC TOE ***************************** \n\n";
 	cout<<"********** PLAYER 1: [X]  PLAYER 2: [O] ********************* \n\n";
-    cout<<"                     "<<"     |     |     "<<endl;
-    cout<<"                     "<<"  "<< board[0]<< "  |  "<<board[1]<< "  |  "<<board[2]<<endl;
-    cout<<"                     "<<"_____|_____|_____" << endl;
-    cout<<"                     "<<"     |     |     " << endl;
-    cout<<"                     "<<"  "<<board[3]<<"  |  "<<board[4]<<"  |  "<<board[5]<<endl;
-    cout<<"                     "<<"_____|_____|_____"<<endl;
-    cout<<"                     "<<"     |     |     "<<endl;
-    cout<<"                     "<<"  "<<board[6]<<"  |  "<<board[7]<<"  |  "<<board[8]<< endl;
-    cout<<"                     "<<"     |     |     "<<endl<<endl;
+    cout<<"\t\t"<<"     |     |     "<<endl;
+    cout<<"\t\t"<<"  "<< board[0]<< "  |  "<<board[1]<< "  |  "<<board[2]<<endl;
+    cout<<"\t\t"<<"_____|_____|_____" << endl;
+    cout<<"\t\t"<<"     |     |     " << endl;
+    cout<<"\t\t"<<"  "<<board[3]<<"  |  "<<board[4]<<"  |  "<<board[5]<<endl;
+    cout<<"\t\t"<<"_____|_____|_____"<<endl;
+    cout<<"\t\t"<<"     |     |     "<<endl;
+    cout<<"\t\t"<<"  "<<board[6]<<"  |  "<<board[7]<<"  |  "<<board[8]<< endl;
+    cout<<"\t\t"<<"     |     |     "<<endl<<endl;
 }
 int winnerCheck(){
 	if((board[0] == board[1]) && (board[0] == board[2]))
